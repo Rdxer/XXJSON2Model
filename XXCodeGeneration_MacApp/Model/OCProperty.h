@@ -21,9 +21,9 @@
 
 +(instancetype)propertyWithType:(NSString *)type name:(NSString *)name;
 
--(NSString *)makeOCLazyCode;
+-(NSString *)makeLazyCode;
 
--(NSString *)makeOCPropertyCode;
+-(NSString *)makePropertyCode;
 
 
 

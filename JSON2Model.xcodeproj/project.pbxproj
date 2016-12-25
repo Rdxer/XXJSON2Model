@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2182531E0FC795006132AF /* SwiftClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2182521E0FC795006132AF /* SwiftClass2.swift */; };
 		FD507F931C61942D002CBE6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD507F921C61942D002CBE6B /* AppDelegate.m */; };
 		FD507F961C61942D002CBE6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD507F951C61942D002CBE6B /* main.m */; };
 		FD507F991C61942D002CBE6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD507F981C61942D002CBE6B /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		FD507FDD1C619652002CBE6B /* TextCheckingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FD507FD61C619652002CBE6B /* TextCheckingResult.m */; };
 		FD507FE11C619844002CBE6B /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FD507FE01C619844002CBE6B /* OCClass.m */; };
 		FD507FE41C61985A002CBE6B /* OCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FD507FE31C619859002CBE6B /* OCProperty.m */; };
+		FD5641C71D07F0440045AEBD /* JavaClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5641C61D07F0440045AEBD /* JavaClass.m */; };
+		FD5641CA1D07F11B0045AEBD /* JavaProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5641C91D07F11B0045AEBD /* JavaProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD507F8E1C61942D002CBE6B /* XXCodeGeneration_MacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXCodeGeneration_MacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2182511E0FC794006132AF /* JSON2Model-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSON2Model-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E2182521E0FC795006132AF /* SwiftClass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClass2.swift; sourceTree = "<group>"; };
+		FD507F8E1C61942D002CBE6B /* JSON2Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON2Model.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD507F911C61942D002CBE6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD507F921C61942D002CBE6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FD507F951C61942D002CBE6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,10 +57,10 @@
 		FD507F9A1C61942D002CBE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD507F9D1C61942D002CBE6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD507F9F1C61942D002CBE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD507FA41C61942D002CBE6B /* XXCodeGeneration_MacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXCodeGeneration_MacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD507FA41C61942D002CBE6B /* JSON2ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON2ModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD507FA81C61942D002CBE6B /* XXCodeGeneration_MacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCodeGeneration_MacAppTests.m; sourceTree = "<group>"; };
 		FD507FAA1C61942D002CBE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD507FAF1C61942D002CBE6B /* XXCodeGeneration_MacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXCodeGeneration_MacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD507FAF1C61942D002CBE6B /* JSON2ModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON2ModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD507FB31C61942D002CBE6B /* XXCodeGeneration_MacAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCodeGeneration_MacAppUITests.m; sourceTree = "<group>"; };
 		FD507FB51C61942D002CBE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD507FC21C6194B0002CBE6B /* GenerationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerationModel.h; sourceTree = "<group>"; };
@@ -77,6 +82,10 @@
 		FD507FE01C619844002CBE6B /* OCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCClass.m; sourceTree = "<group>"; };
 		FD507FE21C619859002CBE6B /* OCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCProperty.h; sourceTree = "<group>"; };
 		FD507FE31C619859002CBE6B /* OCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCProperty.m; sourceTree = "<group>"; };
+		FD5641C51D07F0440045AEBD /* JavaClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaClass.h; sourceTree = "<group>"; };
+		FD5641C61D07F0440045AEBD /* JavaClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaClass.m; sourceTree = "<group>"; };
+		FD5641C81D07F11B0045AEBD /* JavaProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaProperty.h; sourceTree = "<group>"; };
+		FD5641C91D07F11B0045AEBD /* JavaProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaProperty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +126,9 @@
 		FD507F8F1C61942D002CBE6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD507F8E1C61942D002CBE6B /* XXCodeGeneration_MacApp.app */,
-				FD507FA41C61942D002CBE6B /* XXCodeGeneration_MacAppTests.xctest */,
-				FD507FAF1C61942D002CBE6B /* XXCodeGeneration_MacAppUITests.xctest */,
+				FD507F8E1C61942D002CBE6B /* JSON2Model.app */,
+				FD507FA41C61942D002CBE6B /* JSON2ModelTests.xctest */,
+				FD507FAF1C61942D002CBE6B /* JSON2ModelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +229,12 @@
 				FD507FE31C619859002CBE6B /* OCProperty.m */,
 				FD507FDF1C619844002CBE6B /* OCClass.h */,
 				FD507FE01C619844002CBE6B /* OCClass.m */,
+				FD5641C51D07F0440045AEBD /* JavaClass.h */,
+				FD5641C61D07F0440045AEBD /* JavaClass.m */,
+				FD5641C81D07F11B0045AEBD /* JavaProperty.h */,
+				FD5641C91D07F11B0045AEBD /* JavaProperty.m */,
+				3E2182521E0FC795006132AF /* SwiftClass2.swift */,
+				3E2182511E0FC794006132AF /* JSON2Model-Bridging-Header.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,9 +242,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD507F8D1C61942D002CBE6B /* XXCodeGeneration_MacApp */ = {
+		FD507F8D1C61942D002CBE6B /* JSON2Model */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD507FB81C61942D002CBE6B /* Build configuration list for PBXNativeTarget "XXCodeGeneration_MacApp" */;
+			buildConfigurationList = FD507FB81C61942D002CBE6B /* Build configuration list for PBXNativeTarget "JSON2Model" */;
 			buildPhases = (
 				FD507F8A1C61942D002CBE6B /* Sources */,
 				FD507F8B1C61942D002CBE6B /* Frameworks */,
@@ -239,14 +254,14 @@
 			);
 			dependencies = (
 			);
-			name = XXCodeGeneration_MacApp;
+			name = JSON2Model;
 			productName = XXCodeGeneration_MacApp;
-			productReference = FD507F8E1C61942D002CBE6B /* XXCodeGeneration_MacApp.app */;
+			productReference = FD507F8E1C61942D002CBE6B /* JSON2Model.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD507FA31C61942D002CBE6B /* XXCodeGeneration_MacAppTests */ = {
+		FD507FA31C61942D002CBE6B /* JSON2ModelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD507FBB1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "XXCodeGeneration_MacAppTests" */;
+			buildConfigurationList = FD507FBB1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "JSON2ModelTests" */;
 			buildPhases = (
 				FD507FA01C61942D002CBE6B /* Sources */,
 				FD507FA11C61942D002CBE6B /* Frameworks */,
@@ -257,14 +272,14 @@
 			dependencies = (
 				FD507FA61C61942D002CBE6B /* PBXTargetDependency */,
 			);
-			name = XXCodeGeneration_MacAppTests;
+			name = JSON2ModelTests;
 			productName = XXCodeGeneration_MacAppTests;
-			productReference = FD507FA41C61942D002CBE6B /* XXCodeGeneration_MacAppTests.xctest */;
+			productReference = FD507FA41C61942D002CBE6B /* JSON2ModelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FD507FAE1C61942D002CBE6B /* XXCodeGeneration_MacAppUITests */ = {
+		FD507FAE1C61942D002CBE6B /* JSON2ModelUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD507FBE1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "XXCodeGeneration_MacAppUITests" */;
+			buildConfigurationList = FD507FBE1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "JSON2ModelUITests" */;
 			buildPhases = (
 				FD507FAB1C61942D002CBE6B /* Sources */,
 				FD507FAC1C61942D002CBE6B /* Frameworks */,
@@ -275,9 +290,9 @@
 			dependencies = (
 				FD507FB11C61942D002CBE6B /* PBXTargetDependency */,
 			);
-			name = XXCodeGeneration_MacAppUITests;
+			name = JSON2ModelUITests;
 			productName = XXCodeGeneration_MacAppUITests;
-			productReference = FD507FAF1C61942D002CBE6B /* XXCodeGeneration_MacAppUITests.xctest */;
+			productReference = FD507FAF1C61942D002CBE6B /* JSON2ModelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -291,6 +306,7 @@
 				TargetAttributes = {
 					FD507F8D1C61942D002CBE6B = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 					};
 					FD507FA31C61942D002CBE6B = {
 						CreatedOnToolsVersion = 7.2;
@@ -302,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD507F891C61942D002CBE6B /* Build configuration list for PBXProject "XXCodeGeneration_MacApp" */;
+			buildConfigurationList = FD507F891C61942D002CBE6B /* Build configuration list for PBXProject "JSON2Model" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -315,9 +331,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD507F8D1C61942D002CBE6B /* XXCodeGeneration_MacApp */,
-				FD507FA31C61942D002CBE6B /* XXCodeGeneration_MacAppTests */,
-				FD507FAE1C61942D002CBE6B /* XXCodeGeneration_MacAppUITests */,
+				FD507F8D1C61942D002CBE6B /* JSON2Model */,
+				FD507FA31C61942D002CBE6B /* JSON2ModelTests */,
+				FD507FAE1C61942D002CBE6B /* JSON2ModelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -355,11 +371,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD507F991C61942D002CBE6B /* ViewController.m in Sources */,
+				3E2182531E0FC795006132AF /* SwiftClass2.swift in Sources */,
 				FD507FDD1C619652002CBE6B /* TextCheckingResult.m in Sources */,
 				FD507FD81C619652002CBE6B /* XLazySettingsWindowController.m in Sources */,
 				FD507FE11C619844002CBE6B /* OCClass.m in Sources */,
+				FD5641CA1D07F11B0045AEBD /* JavaProperty.m in Sources */,
 				FD507FDB1C619652002CBE6B /* StringFormater.m in Sources */,
 				FD507FD71C619652002CBE6B /* XLazySettings.m in Sources */,
+				FD5641C71D07F0440045AEBD /* JavaClass.m in Sources */,
 				FD507FE41C61985A002CBE6B /* OCProperty.m in Sources */,
 				FD507FC41C6194B0002CBE6B /* GenerationModel.m in Sources */,
 				FD507F961C61942D002CBE6B /* main.m in Sources */,
@@ -389,12 +408,12 @@
 /* Begin PBXTargetDependency section */
 		FD507FA61C61942D002CBE6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD507F8D1C61942D002CBE6B /* XXCodeGeneration_MacApp */;
+			target = FD507F8D1C61942D002CBE6B /* JSON2Model */;
 			targetProxy = FD507FA51C61942D002CBE6B /* PBXContainerItemProxy */;
 		};
 		FD507FB11C61942D002CBE6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD507F8D1C61942D002CBE6B /* XXCodeGeneration_MacApp */;
+			target = FD507F8D1C61942D002CBE6B /* JSON2Model */;
 			targetProxy = FD507FB01C61942D002CBE6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -494,12 +513,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XXCodeGeneration_MacApp/PrefixHeader.pch";
 				INFOPLIST_FILE = XXCodeGeneration_MacApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rdxer.XXCodeGeneration-MacApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XXCodeGeneration_MacApp/Model/JSON2Model-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,44 +530,50 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XXCodeGeneration_MacApp/PrefixHeader.pch";
 				INFOPLIST_FILE = XXCodeGeneration_MacApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rdxer.XXCodeGeneration-MacApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XXCodeGeneration_MacApp/Model/JSON2Model-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		FD507FBC1C61942D002CBE6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = XXCodeGeneration_MacAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rdxer.XXCodeGeneration-MacAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXCodeGeneration_MacApp.app/Contents/MacOS/XXCodeGeneration_MacApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON2Model.app/Contents/MacOS/JSON2Model";
 			};
 			name = Debug;
 		};
 		FD507FBD1C61942D002CBE6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = XXCodeGeneration_MacAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rdxer.XXCodeGeneration-MacAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXCodeGeneration_MacApp.app/Contents/MacOS/XXCodeGeneration_MacApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON2Model.app/Contents/MacOS/JSON2Model";
 			};
 			name = Release;
 		};
 		FD507FBF1C61942D002CBE6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = XXCodeGeneration_MacAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -558,6 +587,7 @@
 		FD507FC01C61942D002CBE6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = XXCodeGeneration_MacAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -571,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD507F891C61942D002CBE6B /* Build configuration list for PBXProject "XXCodeGeneration_MacApp" */ = {
+		FD507F891C61942D002CBE6B /* Build configuration list for PBXProject "JSON2Model" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD507FB61C61942D002CBE6B /* Debug */,
@@ -580,29 +610,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD507FB81C61942D002CBE6B /* Build configuration list for PBXNativeTarget "XXCodeGeneration_MacApp" */ = {
+		FD507FB81C61942D002CBE6B /* Build configuration list for PBXNativeTarget "JSON2Model" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD507FB91C61942D002CBE6B /* Debug */,
 				FD507FBA1C61942D002CBE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FD507FBB1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "XXCodeGeneration_MacAppTests" */ = {
+		FD507FBB1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "JSON2ModelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD507FBC1C61942D002CBE6B /* Debug */,
 				FD507FBD1C61942D002CBE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FD507FBE1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "XXCodeGeneration_MacAppUITests" */ = {
+		FD507FBE1C61942D002CBE6B /* Build configuration list for PBXNativeTarget "JSON2ModelUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD507FBF1C61942D002CBE6B /* Debug */,
 				FD507FC01C61942D002CBE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,7 @@
 +(NSString *)makeLazyCode:(NSArray<TextCheckingResult *> *)results{
     NSMutableString *stringP = [NSMutableString string];
     for (TextCheckingResult *result in results) {
-        [stringP appendString:[result.property makeOCLazyCode]];
+        [stringP appendString:[result.property makeLazyCode]];
     }
     return stringP;
 }

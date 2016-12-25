@@ -36,7 +36,7 @@
     NSMutableString *string = [NSMutableString string];
     
     for (OCProperty *p in self.propertyArray) {
-        [string appendString:p.makeOCPropertyCode];
+        [string appendString:p.makePropertyCode];
         [string appendString:@"\n"];
     }
     

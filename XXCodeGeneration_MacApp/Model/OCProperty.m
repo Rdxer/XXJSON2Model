@@ -26,7 +26,7 @@
         self.memoryPolicy = @"assign";
     }
 }
--(NSString *)makeOCLazyCode{
+-(NSString *)makeLazyCode{
     
     NSString *format = [[XLazySettings lazySettings] formatStringWithType:self.type];
     
@@ -38,7 +38,8 @@
     return format;
 }
 
--(NSString *)makeOCPropertyCode{
+-(NSString *)makePropertyCode{
+    
     NSString *result = nil;
     
     NSString *stringFormat = @"@property (nonatomic, %@) %@%@;";

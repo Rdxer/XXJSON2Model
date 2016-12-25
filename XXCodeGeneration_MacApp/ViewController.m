@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 #import "OCClass.h"
+#import "JavaClass.h"
+#import "JSON2Model-Swift.h"
 
 @interface ViewController ()
 
@@ -20,6 +22,18 @@
 
 @end
 @implementation ViewController
+- (IBAction)gSwiftCode:(id)sender {
+    NSString *string = self.jsonStringTextView.string;
+    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:[string dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
+    if (dict == nil || ![dict isKindOfClass:[NSDictionary class]]) {
+        [self showAlertWithMsg:@"json 字符串不合法"];
+        return;
+    }
+    
+    SwiftClass2 *sc = [SwiftClass2 model_InitWith:dict];
+    
+    self.resultTextView.string = sc.makeInterfaceCode;
+}
 
 - (IBAction)generationOCModel:(id)sender {
     NSString *string = self.jsonStringTextView.string;
@@ -31,6 +45,18 @@
     OCClass *occ = [OCClass classWithModelDict:dict];
     self.resultTextView.string = occ.makeInterfaceCode;
 }
+
+- (IBAction)generationJAVAModel:(id)sender {
+    NSString *string = self.jsonStringTextView.string;
+    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:[string dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
+    if (dict == nil || ![dict isKindOfClass:[NSDictionary class]]) {
+        [self showAlertWithMsg:@"json 字符串不合法"];
+        return;
+    }
+    JavaClass *javac = [JavaClass classWithModelDict:dict];
+    self.resultTextView.string = javac.makeInterfaceCode;
+}
+
 - (IBAction)generationAndCopyOCModel:(id)sender {
     [self generationOCModel:sender];
     [self copyOCModel:sender];
