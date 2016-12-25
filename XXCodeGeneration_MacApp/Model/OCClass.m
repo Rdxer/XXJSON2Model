@@ -22,7 +22,15 @@
         }else if([obj isKindOfClass:[NSString class]]){
             p.type = @"NSString *";
         }else if([obj isKindOfClass:[NSNumber class]]){
-            p.type = @"NSInteger ";
+            
+            int intv = [obj intValue];
+            double douv = [obj doubleValue];
+            if (douv - intv < 0.0000001) {
+                p.type = @"NSInteger ";
+            }else{
+                p.type = @"CGFloat ";
+            }
+        
         }else {
             p.type = @"<#NSString#> *";
         }

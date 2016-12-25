@@ -23,7 +23,15 @@
         }else if([obj isKindOfClass:[NSString class]]){
             p.type = @"String";
         }else if([obj isKindOfClass:[NSNumber class]]){
-            p.type = @"int";
+            
+            int intv = [obj intValue];
+            double douv = [obj doubleValue];
+            if (douv - intv < 0.0000001) {
+                
+                p.type = @"int";
+            }else{
+                p.type = @"double";
+            }
         }else {
             p.type = @"String";
         }
